@@ -10,9 +10,7 @@ tracker:
                 - fullsend-ai/fullsend
                 - fullsend-ai/agents
 runtime: dummy
-agents:
-    - name: inherit-child
-      source: harness/inherit-child.yaml
 allowed_remote_resources:
     - https://raw.githubusercontent.com/fullsend-ai/fullsend/
     - https://raw.githubusercontent.com/fullsend-ai/agents/
+    - https://raw.githubusercontent.com/fullsend-ai-test/bt-01a1d2c94c137d2c965571bf1dbbac05-e5b2950d-base-harness-host/
